@@ -1,0 +1,149 @@
+# ============================================
+# Dataset and Data Files
+# ============================================
+Datasets/
+datasets/
+data/
+raw_data/
+processed_data/
+
+# ============================================  
+# Experiments and Results
+# ============================================
+experiments/
+experiments*/
+exp*/
+results/
+outputs/
+runs/
+logs/
+tensorboard/
+wandb/
+
+# ============================================
+# Models and Checkpoints
+# ============================================
+models/
+models*/
+checkpoints/
+weights/
+saved_models/
+*.pth
+*.pt
+*.h5
+*.weights
+*.pkl
+*.joblib
+*.model
+
+# ============================================
+# Image Files
+# ============================================
+images/
+pictures/
+photos/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+*.webp
+*.ico
+
+# ============================================
+# Large Data Files
+# ============================================
+*.npy
+*.npz
+*.csv
+*.json
+*.xml
+*.txt
+*.tsv
+
+# ============================================
+# Archives and Compressed Files
+# ============================================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.gz
+
+# ============================================
+# Temporary and Cache Files
+# ============================================
+.cache/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ============================================
+# IDE and Editor Files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# OS Specific Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================================
+# Python Specific
+# ============================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# Package and Distribution Files
+# ============================================
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ============================================
+# Configuration files (keep only templates)
+# ============================================
+config.yaml
+config.yml
+*.config
+!config_template.yaml
+!*.example
